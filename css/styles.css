@@ -11,7 +11,7 @@ ol {
   list-style: none;
 }
 
-.header-container {
+.header-page {
   background-color: white;
 }
 
@@ -114,7 +114,7 @@ ol {
 
 .benefits-descr,
 .portfolio-item-descr,
-.footer-container-descr {
+.footer-page-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -162,7 +162,7 @@ ol {
   background-color: white;
 }
 
-.footer-container {
+.footer-page {
   background-color: #2e2f42;
   color: #f4f4fd;
   font-weight: 400;
@@ -171,6 +171,6 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.footer-container .logo {
+.footer-page .logo {
   color: #f4f4fd;
 }
