@@ -24,6 +24,7 @@ ol {
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -43,14 +44,13 @@ ol {
   overflow: hidden;
 }
 
-.header-page {
-  padding: 24px 0;
+.header {
   justify-content: center;
   background-color: white;
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-page .container {
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,6 +89,7 @@ ol {
 }
 
 .contacts-list {
+  margin: 24px 0;
   display: flex;
   align-items: flex-end;
   flex-direction: row;
@@ -109,7 +110,7 @@ ol {
   color: #404bbf;
 }
 
-.main-page .container {
+.hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +179,7 @@ ol {
 .benefits-list {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 24px;
 }
 
 .benefits-list-container {
@@ -199,6 +200,7 @@ ol {
 }
 
 .benefits-descr {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -241,11 +243,15 @@ ol {
 }
 
 .team-list-container {
+  max-width: 264px;
   background-color: white;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.card-foto {
-  margin-bottom: 32px;
+.team-item-container {
+  width: 232px;
+  margin: 32px 16px;
 }
 
 .team-member {
@@ -259,7 +265,7 @@ ol {
 
 .benefits-descr,
 .portfolio-item-descr,
-.footer-page-descr {
+.footer-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -272,7 +278,6 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .portfolio {
@@ -311,13 +316,19 @@ ol {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  border: 1px solid #e7e9fc;
   width: 360px;
 }
 
+.portfolio-item-container {
+  border-bottom: 1px solid #E7E9FC;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #E7E9FC;
+  padding: 32px 16px;
+  width: 360px;
+
+}
+
 .portfolio-item-title {
-  margin-top: 32px;
-  margin-left: 16px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -327,8 +338,6 @@ ol {
 }
 
 .portfolio-item-descr {
-  margin-bottom: 32px;
-  margin-left: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -336,12 +345,12 @@ ol {
   text-align: left;
 }
 
-.footer-page {
+.footer {
   padding: 100px 0;
   background-color: #2e2f42;
 }
 
-.footer-page .container {
+.footer .container {
   width: 100;
   display: flex;
   flex-direction: column;
@@ -349,12 +358,12 @@ ol {
   gap: 16px;
 }
 
-.footer-page .logo {
+.footer .logo {
   color: #f4f4fd;
   margin: 0;
 }
 
-.footer-page-descr {
+.footer-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
