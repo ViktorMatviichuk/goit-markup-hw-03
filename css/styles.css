@@ -192,7 +192,7 @@ ol {
   flex-direction: column;
   align-items: start;
   text-align: left;
-  gap: 16px;
+  gap: 8px;
 }
 
 .benefits-item-title {
@@ -205,7 +205,6 @@ ol {
 }
 
 .benefits-descr {
-  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -250,7 +249,6 @@ ol {
 .team-list-container {
   display: flex;
   flex-direction: column;
-  max-width: 264px;
   align-items: center;
   justify-content: center;
   background-color: white;
@@ -263,8 +261,8 @@ ol {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 232px;
-  padding: 32px 0;
+  margin: 32px 16px;
+  width: 232px;
   gap: 8px;
 }
 
