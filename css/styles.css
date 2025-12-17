@@ -21,6 +21,12 @@ ol {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -135,6 +141,7 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
 .button {
@@ -146,6 +153,7 @@ ol {
   gap: 10px;
   min-width: 169px;
   height: 56px;
+  padding: 16px 32px;
   background-color: #4d5ae5;
   color: white;
   border: none;
